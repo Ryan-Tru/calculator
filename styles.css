@@ -93,6 +93,7 @@ body {
     grid-column: 1 / 3;
     width: 96%;
     border-radius: 50px;
+    transition: all 0.17s ease;
 }
 
 .equals {
@@ -100,22 +101,41 @@ body {
     grid-column: 3 / 5;
     width: 96%;
     border-radius: 50px;
+    transition: all 0.17s ease;
 }
 
 /* Colouring numbers */
 
 .number {
     color: white;
+    transition: all 0.17s ease;
     background-color: rgb(65, 65, 65);
 }
 
 /* Colouring operators */
 
 .operator {
+    transition: all 0.2s ease;
     color: white;
-    background-color: rgb(255, 174, 43)
+    background-color: rgb(255, 174, 43);
 }
 
+
+/* Change number button when clicked */
+.click-number {
+    background-color: rgb(100, 100, 100);
+}
+
+/* Change operator button when clicked */
+.click-operator {
+    background-color: white;
+    color: rgb(255, 174, 43);
+}
+
+/* Change equal when clicked */
+.click-clear-equal {
+    background-color: rgb(200, 200, 200);
+}
 
 /* Mobile breakpoint */
 @media only screen and (max-width: 450px){
