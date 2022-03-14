@@ -78,10 +78,6 @@ function allClear() {
     updateDisplay();
 }
 
-function deleteNum() {
-
-}
-
 function appendNumber(number) {
     if(number === '.' && operand.includes('.')) return;
     operand = operand.toString() + number.toString();
