@@ -155,12 +155,12 @@ body {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(5, 1fr);
-        height: 560px;
+        height: 500px;
     }
     
     .button {
-        height: 88px;
-        width: 88px;
+        height: 80px;
+        width: 80px;
     }
 
     .zero {
